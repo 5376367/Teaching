@@ -9,5 +9,5 @@ public partial class Course
 
     public string Name { get; set; } = null!;
 
-    public virtual ICollection<Student> Students { get; set; } = new List<Student>();
+    public virtual ICollection<Enrolment> Enrolments { get; set; } = new List<Enrolment>();
 }

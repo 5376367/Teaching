@@ -57,3 +57,7 @@ INSERT INTO Enrolments (StudentId, CourseId) VALUES
     (4, 2),  -- Sarah enrolled in Database Design
     (5, 1),  -- Mike enrolled in Introduction to Programming
     (5, 4);  -- Mike enrolled in Data Structures
+
+
+    
+alter table enrolments add EnrolmentDate datetime not null default '2025-01-01'
